@@ -1,0 +1,814 @@
+[
+  {
+    "url": "https://alignment.anthropic.com/2025/bloom-auto-evals/",
+    "status": 200,
+    "final_url": "https://alignment.anthropic.com/2025/bloom-auto-evals/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://alignment.anthropic.com/2025/sabotage-risk-report/2025_pilot_risk_report.pdf",
+    "status": 200,
+    "final_url": "https://alignment.anthropic.com/2025/sabotage-risk-report/2025_pilot_risk_report.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-fable-5-mythos-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/57a52ea7d8f0e54e8a542e908266086df425cdf5/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-opus-4-6-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/6a5fa276ac68b9aeb0c8b6af5fa36326e0e166dd/Claude%20Opus%204.6%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-opus-4-7-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/037f06850df7fbe871e206dad004c3db5fd50340/Claude%20Opus%204.7%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-opus-4-8-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-opus-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/ceaf5c7ff2783855203fde8208ec311252dced5b/Claude%20Opus%205%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-sonnet-4-6-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/bbd8ef16d70b7a1665f14f306ee88b53f686aa75/Claude%20Sonnet%204.6%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/claude-sonnet-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/283ef97c476cf442c91d9a37d5b214242a55bb92/Claude%20Sonnet%205%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/document/aes_mobius_bridge.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/c88771e1bf5ee8885349eed05e5484c0e5f7e02b/aes_mobius_bridge.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://anthropic.com/document/hawk_key_recovery.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/e8d50c167ad47beeb03d6109a4a484be95cb38ea/hawk_key_recovery.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.02823",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2511.02823",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.02997",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2511.02997",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2511.13653",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2511.13653",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.05648",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2512.05648",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.08093",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2512.08093",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.15674",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2512.15674",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2512.18311",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2512.18311",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.04603",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.04603",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.10387",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.10387",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.19062",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.19062",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.20245",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.20245",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.21165",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.21165",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2601.23045",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2601.23045",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.11729",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.11729",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.12176",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.12176",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.12318",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.12318",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.20400",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.20400",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.22303",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.22303",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2602.22755v3",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2602.22755v3",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.05706",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2603.05706",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.10521",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2603.10521",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.10290",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2604.10290",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.27470",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2604.27470",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.02087",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2605.02087",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.11086",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2605.11086",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.14153",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2605.14153",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.16626",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2605.16626",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.06749",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2606.06749",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.08892",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2606.08892",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.24014",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2606.24014",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2606.28548",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2606.28548",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.07184",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2607.07184",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.08077",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2607.08077",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.18538",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2607.18538",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2607.18966",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2607.18966",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.16747",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2608.16747",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2608.25460",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2608.25460",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.17062",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2610.17062",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/abs/2610.22367",
+    "status": 200,
+    "final_url": "https://arxiv.org/abs/2610.22367",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://arxiv.org/pdf/2604.16812",
+    "status": 200,
+    "final_url": "https://arxiv.org/pdf/2604.16812",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/daad4360a8bdc707f8b22e3e745796ba27e57fb3.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/d7dd50dd1185f59be051b307150d877f2b82bd2c.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/evmbench/evmbench.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/evmbench/evmbench.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/08b7dee4-8bc6-4955-a219-7793fb69090c/Technical_report__Research_Preview_of_gpt_oss_safeguard.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/08b7dee4-8bc6-4955-a219-7793fb69090c/Technical_report__Research_Preview_of_gpt_oss_safeguard.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/26177a73-3b75-4828-8c91-e8f1cf27aaa0/oai_first_proof.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/26177a73-3b75-4828-8c91-e8f1cf27aaa0/oai_first_proof.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/7136bb75-6d47-4834-8fff-c07c0e06708a/tempo-improves-generality-and-decreases-oxidative-deboronation.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/7136bb75-6d47-4834-8fff-c07c0e06708a/tempo-improves-generality-and-decreases-oxidative-deboronation.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/7517a586-5bfa-4b87-bd3d-6ea0e9e844c7/GPT-as-a-measurement-tool.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/7517a586-5bfa-4b87-bd3d-6ea0e9e844c7/GPT-as-a-measurement-tool.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/7ef17d82-96bf-4dd1-9df2-228f7f377a29/the-state-of-enterprise-ai_2025-report.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/7ef17d82-96bf-4dd1-9df2-228f7f377a29/the-state-of-enterprise-ai_2025-report.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/a3f3f76c-98bd-47a5-888f-c52c932a8942/colt-monotonicity-problem.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/a3f3f76c-98bd-47a5-888f-c52c932a8942/colt-monotonicity-problem.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/c66281ed-b638-456a-8ce1-97e9f5264a90/OpenAI-Privacy-Filter-Model-Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/gpt-red-automated-red-teaming-via-self-play-at-scale.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/gpt-red-automated-red-teaming-via-self-play-at-scale.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/graviton.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/graviton.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/scientific-computing-in-the-age-of-agentic-ai-an-exploratory-field-report.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/scientific-computing-in-the-age-of-agentic-ai-an-exploratory-field-report.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/work-at-the-frontier-report-202609.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/work-at-the-frontier-report-202609.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.openai.com/pdf/work-at-the-frontier-report.pdf",
+    "status": 200,
+    "final_url": "https://cdn.openai.com/pdf/work-at-the-frontier-report.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/2b5bbaf2c1eb81dbf6e6fb813c1a24e35a64d376.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/2b5bbaf2c1eb81dbf6e6fb813c1a24e35a64d376.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/401a473469db99fd39bba1ca6d9a5653a70e2f12.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/401a473469db99fd39bba1ca6d9a5653a70e2f12.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/4053bf3440c0c85b8852052770c5b4cf882689c3.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/4053bf3440c0c85b8852052770c5b4cf882689c3.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/433472e34b60db1a52ebf0b8c6600f057b6908c5.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/433472e34b60db1a52ebf0b8c6600f057b6908c5.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://cdn.sanity.io/files/4zrzovbb/website/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf",
+    "status": 200,
+    "final_url": "https://cdn.sanity.io/files/4zrzovbb/website/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/chatgpt-images-2-0",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/chatgpt-images-2-0",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/chatgpt-images-2-5",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/chatgpt-images-2-5",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-1",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-1",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-1-codex-max",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-1-codex-max",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-2",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-2",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-2-codex",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-2-codex",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-3-codex",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-3-instant",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-3-instant",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-4-thinking",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-5",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-5",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-5-instant",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-5-instant",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-6",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-6",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-6-august-update",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-6-august-update",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-5-sensitive-conversations",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-5-sensitive-conversations",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-6-astra",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-6-october",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-6-october",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-live",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-live",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-live-1-1",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-live-1-1",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5",
+    "status": 200,
+    "final_url": "https://deploymentsafety.openai.com/gpt-rosalind-5-5",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2025/introspection/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2025/introspection/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/emotions/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2026/emotions/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/headvis/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2026/headvis/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/nla/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2026/nla/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "status": 200,
+    "final_url": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/07441e654ad3dfeb0cd090e9361511562825d012.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/07441e654ad3dfeb0cd090e9361511562825d012.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/169e4adceebbab066b91e0b45127d73cb2bda24b/WorkerRetraining.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/169e4adceebbab066b91e0b45127d73cb2bda24b/WorkerRetraining.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/3818cf6119b88f9714d995f6549fa8aac0bd5ab5/Project-Swap.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/3818cf6119b88f9714d995f6549fa8aac0bd5ab5/Project-Swap.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/9f08da5189ac269b3242ca760de9823805c3f5f6.pdf/",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/9f08da5189ac269b3242ca760de9823805c3f5f6.pdf/",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/a28f24814c56e2834a3eae7b13946f19d3e97ec4/The%20AI%20Expectations%20Gap.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/a28f24814c56e2834a3eae7b13946f19d3e97ec4/The%20AI%20Expectations%20Gap.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/e5645986a7ce8fbcc48fa6d2fc67753c87642c30.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/e5645986a7ce8fbcc48fa6d2fc67753c87642c30.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/e96b5807039a88168733d9687afe41dfbbd5de13.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/e96b5807039a88168733d9687afe41dfbbd5de13.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/dd5feddcb3b7d20aadda6af4093ac1fb0c9d419e.pdf",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/files/4zrzovbb/website/dd5feddcb3b7d20aadda6af4093ac1fb0c9d419e.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-fable-5-1-mythos-5-1-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-haiku-5-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/e1080d6bf5ae2018ea3c2f414064be03232f5be5/Claude%20Haiku%205.5%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-mythos-preview-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-opus-5-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/fc1b44717c85dc068bc6ba5024219938094694bd/Claude%20Opus%205.5%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.anthropic.com/claude-sonnet-5-5-system-card",
+    "status": 200,
+    "final_url": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1",
+    "status": 403
+  },
+  {
+    "url": "https://www.biorxiv.org/content/10.64898/2026.06.29.735386v1",
+    "status": 403
+  }
+]

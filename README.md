@@ -1,189 +1,139 @@
 # Awesome OpenAI and Anthropic Papers
 
-A curated collection of research from OpenAI and Anthropic, with the original OpenAI bibliography preserved below.
+Research papers and technical reports from **OpenAI and Anthropic**, released during **21 October 2025–21 October 2026**, inclusive. Last checked: **21 October 2026**. There is **no paper-count limit**.
 
-## Recent papers — past year
+The main bibliography below contains **101 papers and reports**: **37 OpenAI** and **64 Anthropic**. It covers AI methods, alignment, interpretability, evaluations, scientific research, and empirical economic research, including collaborations and Fellows Program work published by the labs.
 
-Updated: **2026-10-21**. This selection contains **two papers total**, one from each lab, announced between **2025-10-21 and 2026-10-21** (inclusive). Dates refer to the linked official research announcements. This is a curated selection, not an exhaustive list or a claim that these are the two newest papers.
+- [OpenAI papers and reports](#openai)
+- [Anthropic papers and reports](#anthropic)
+- [System cards and addenda](SYSTEM_CARDS.md) — 35
+- [Additional research articles and notes](RESEARCH_NOTES.md) — 103; these are not counted as standalone papers
+- [OpenAI mathematics manuscripts](OPENAI_MATH_MANUSCRIPTS.md) — 719 model-generated manuscripts, indexed individually and separately
+- [Sources, date rules, and coverage](SOURCES.md)
+- [Machine-readable bibliography](data/catalog.json)
+- [Historical upstream archive](archive/README.md) — outside the current bibliography
 
-| Date | Lab | Paper | Official announcement | Full paper |
-|---|---|---|---|---|
-| 2026-09-23 | OpenAI | MentalHealthBench: An Expert-Informed Benchmark of AI Capabilities in Realistic Mental Health Conversations | [OpenAI](https://openai.com/index/introducing-mentalhealthbench/) | [PDF](https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf) |
-| 2026-08-28 | Anthropic / Anthropic Fellows Program | TASTE: Can AI Models Judge AI Safety Research Proposals? | [Anthropic](https://alignment.anthropic.com/2026/taste/) | [PDF](https://www-cdn.anthropic.com/files/4zrzovbb/website/dd5feddcb3b7d20aadda6af4093ac1fb0c9d419e.pdf) |
+Dates use the earliest verified public release found in the checked sources: an official announcement, a paper's first arXiv submission, or the date printed on a report. Month-only dates preserve the source's precision. A new blog post or conference appearance does not make an older paper eligible. See [coverage notes](SOURCES.md) for the limits of the source inventory.
 
-- **MentalHealthBench** evaluates model responses to 1,215 realistic mental health conversations using rubrics developed with licensed mental health experts.
-- **TASTE** evaluates how well models' preferences over AI safety research proposals match experienced researchers' judgments, using 92 pairwise comparisons.
+## OpenAI
 
-## Historical OpenAI bibliography
+| Date | Publication | Type | Links |
+| --- | --- | --- | --- |
+| 2026-09-23 | MentalHealthBench: An Expert-Informed Benchmark of AI Capabilities in Realistic Mental Health Conversations | paper | [Source](https://openai.com/index/introducing-mentalhealthbench/) · [Paper](https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf) |
+| 2026-09-16 | How workers are unlocking new ways of working | report | [Source](https://openai.com/index/unlocking-new-ways-of-working/) · [Paper](https://cdn.openai.com/pdf/work-at-the-frontier-report-202609.pdf) |
+| 2026-09-08 | On the Navier–Stokes Millennium Prize Problem | paper | [Source](https://openai.com/index/navier-stokes-solution/) · [Paper](https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf) |
+| 2026-09-08 | Euler singularity proof — companion to the Navier–Stokes paper | paper | [Source](https://openai.com/index/navier-stokes-solution/) · [Paper](https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf) |
+| 2026-08-26 | The Hugging Face incident and the road ahead — technical report | report | [Source](https://openai.com/index/hugging-face-incident-and-the-road-ahead/) · [Paper](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf) |
+| 2026-08-12 | From assistance to execution: How enterprises put AI to work | report | [Source](https://openai.com/index/how-enterprises-put-ai-to-work/) · [Paper](https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf) |
+| 2026-08-01 | Ten advances in mathematics and theoretical computer science | paper | [Source](https://openai.com/index/ten-advances-in-mathematics/) · [Paper](https://cdn.openai.com/pdf/ten-proofs-oai.pdf) |
+| 2026-07-28 | Scientific computing in the age of agentic AI | paper | [Source](https://openai.com/index/scientific-computing-agentic-ai/) · [Paper](https://cdn.openai.com/pdf/scientific-computing-in-the-age-of-agentic-ai-an-exploratory-field-report.pdf) |
+| 2026-07-27 | How AI is expanding what people do at work | report | [Source](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/) · [Paper](https://cdn.openai.com/pdf/work-at-the-frontier-report.pdf) |
+| 2026-07-21 | Measuring Reward-Seeking via Contrastive Belief Updates | paper | [Source](https://alignment.openai.com/measuring-reward-seeking/) · [Paper](https://arxiv.org/abs/2607.18966) |
+| 2026-07-15 | GPT-Red: Automated Red Teaming via Self-Play at Scale | paper | [Source](https://openai.com/index/unlocking-self-improvement-gpt-red/) · [Paper](https://cdn.openai.com/pdf/gpt-red-automated-red-teaming-via-self-play-at-scale.pdf) |
+| 2026-06-30 | GeneBench-Pro: Evaluating Multistage Statistical Reasoning in Genomics, Quantitative Biology, and Translational Biomedicine | paper | [Source](https://openai.com/index/introducing-genebench-pro/) · [Paper](https://www.biorxiv.org/content/10.64898/2026.06.29.735386v1) |
+| 2026-06-25 | How agents are transforming work | report | [Source](https://openai.com/index/how-agents-are-transforming-work/) · [Paper](https://cdn.openai.com/pdf/5d1e1489-21c0-43e4-9d42-f87efdbf0082/the-shift-to-agentic-ai-evidence-from-codex.pdf) |
+| 2026-06-18 | Reinforcement Learning Towards Broadly and Persistently Beneficial Models | paper | [Source](https://alignment.openai.com/beneficial-rl/) · [Paper](https://arxiv.org/abs/2606.24014) |
+| 2026-06-17 | LifeSciBench | paper | [Source](https://openai.com/index/introducing-life-sci-bench/) · [Paper](https://cdn.openai.com/pdf/b4299379-0a97-4ffa-8b9b-c3fbb299caa9/lifescibench_preprint.pdf) |
+| 2026-06-17 | A near-autonomous AI chemist improves a challenging reaction | paper | [Source](https://openai.com/index/ai-chemist-improves-reaction/) · [Paper](https://cdn.openai.com/pdf/7136bb75-6d47-4834-8fff-c07c0e06708a/tempo-improves-generality-and-decreases-oxidative-deboronation.pdf) |
+| 2026-06-16 | Predicting LLM Safety Before Release by Simulating Deployment | paper | [Source](https://openai.com/index/deployment-simulation/) · [Paper](https://arxiv.org/abs/2607.07184) |
+| 2026-05-20 | An OpenAI model has disproved a central conjecture in discrete geometry | paper | [Source](https://openai.com/index/model-disproves-discrete-geometry-conjecture/) · [Paper](https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf) |
+| 2026-04-30 | HealthBench Professional: Evaluating Large Language Models on Real Clinician Chats | paper | [Source](https://arxiv.org/abs/2604.27470) · [Paper](https://arxiv.org/abs/2604.27470) |
+| 2026-04 | GeneBench: Assessing AI Agents for Multi-Stage Inference Problems in Genomics and Quantitative Biology | paper | [Source](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) · [Paper](https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1) |
+| 2026-03-10 | IH-Challenge: A Training Dataset to Improve Instruction Hierarchy on Frontier LLMs | paper | [Source](https://openai.com/index/instruction-hierarchy-challenge/) · [Paper](https://arxiv.org/abs/2603.10521) |
+| 2026-03-05 | Reasoning Models Struggle to Control their Chains of Thought | paper | [Source](https://openai.com/index/reasoning-models-chain-of-thought-controllability/) · [Paper](https://arxiv.org/abs/2603.05706) |
+| 2026-03-04 | Extending single-minus amplitudes to gravitons | paper | [Source](https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/) · [Paper](https://cdn.openai.com/pdf/graviton.pdf) |
+| 2026-02-25 | Training Agents to Self-Report Misbehavior | paper | [Source](https://alignment.openai.com/self-incrimination/) · [Paper](https://arxiv.org/abs/2602.22303) |
+| 2026-02-20 | Our First Proof submissions | paper | [Source](https://openai.com/index/first-proof-submissions/) · [Paper](https://cdn.openai.com/pdf/26177a73-3b75-4828-8c91-e8f1cf27aaa0/oai_first_proof.pdf) |
+| 2026-02-18 | EVMbench: Evaluating AI Agents on Smart Contract Security | paper | [Source](https://openai.com/index/introducing-evmbench/) · [Paper](https://cdn.openai.com/evmbench/evmbench.pdf) |
+| 2026-02-13 | Scaling social science research | paper | [Source](https://openai.com/index/scaling-social-science-research/) · [Paper](https://cdn.openai.com/pdf/7517a586-5bfa-4b87-bd3d-6ea0e9e844c7/GPT-as-a-measurement-tool.pdf) |
+| 2026-02-12 | Single-minus gluon tree amplitudes are nonzero | paper | [Source](https://openai.com/index/new-result-theoretical-physics/) · [Paper](https://arxiv.org/abs/2602.12176) |
+| 2026-02-05 | GPT-5 lowers the cost of cell-free protein synthesis | paper | [Source](https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/) · [Paper](https://cdn.openai.com/pdf/5a12a3bc-96b7-4e07-9386-db6ee5bb2ed9/using-a-gpt-5-driven-autonomous-lab-to-optimize-the-cost-and-titer-of-cell-free-protein-synthesis.pdf) |
+| 2025-12-18 | Monitoring Monitorability | paper | [Source](https://openai.com/index/evaluating-chain-of-thought-monitorability/) · [Paper](https://arxiv.org/abs/2512.18311) |
+| 2025-12-16 | FrontierScience: Evaluating AI's Ability to Perform Expert-Level Scientific Tasks | paper | [Source](https://openai.com/index/frontierscience/) · [Paper](https://arxiv.org/abs/2601.21165) |
+| 2025-12-11 | Advancing science and math with GPT-5.2 — COLT monotonicity paper | paper | [Source](https://openai.com/index/gpt-5-2-for-science-and-math/) · [Paper](https://cdn.openai.com/pdf/a3f3f76c-98bd-47a5-888f-c52c932a8942/colt-monotonicity-problem.pdf) |
+| 2025-12-08 | The state of enterprise AI | report | [Source](https://openai.com/index/the-state-of-enterprise-ai-2025-report/) · [Paper](https://cdn.openai.com/pdf/7ef17d82-96bf-4dd1-9df2-228f7f377a29/the-state-of-enterprise-ai_2025-report.pdf) |
+| 2025-12-03 | Training LLMs for Honesty via Confessions | paper | [Source](https://openai.com/index/how-confessions-can-keep-language-models-honest/) · [Paper](https://arxiv.org/abs/2512.08093) |
+| 2025-11-20 | Early science acceleration experiments with GPT-5 | paper | [Source](https://openai.com/index/accelerating-science-gpt-5/) · [Paper](https://cdn.openai.com/pdf/4a25f921-e4e0-479a-9b38-5367b47e8fd0/early-science-acceleration-experiments-with-gpt-5.pdf) |
+| 2025-11-13 | Weight-sparse transformers have interpretable circuits | paper | [Source](https://openai.com/index/understanding-neural-networks-through-sparse-circuits/) · [Paper](https://arxiv.org/abs/2511.13653) |
+| 2025-10-29 | gpt-oss-safeguard technical report | report | [Source](https://openai.com/index/gpt-oss-safeguard-technical-report/) · [Paper](https://cdn.openai.com/pdf/08b7dee4-8bc6-4955-a219-7793fb69090c/Technical_report__Research_Preview_of_gpt_oss_safeguard.pdf) |
 
-The material below and the other OpenAI indexes are inherited from [chenxingqiang/awsome-openai-paper](https://github.com/chenxingqiang/awsome-openai-paper). They include papers outside the one-year window and remain available as an archive.
+## Anthropic
 
-## Author relate to OpenAI
+| Date | Publication | Type | Links |
+| --- | --- | --- | --- |
+| 2026-10-20 | How Claude designed protein binders against scorpion neurotoxins | paper | [Source](https://www.anthropic.com/research/claude-scorpion-toxin-binder-design) · [Paper](https://www-cdn.anthropic.com/31ac578806cffd8b3d92d8affe6edc4c04d502e1.pdf) |
+| 2026-10-16 | The AI expectations gap | paper | [Source](https://www.anthropic.com/research/ai-expectations-gap) · [Paper](https://www-cdn.anthropic.com/a28f24814c56e2834a3eae7b13946f19d3e97ec4/The%20AI%20Expectations%20Gap.pdf) |
+| 2026-10-16 | How employment is changing at Anthropic | paper | [Source](https://www.anthropic.com/research/employment-at-anthropic) · [Paper](https://www-cdn.anthropic.com/72628f1863c53432195db83279252dfd2cb53158/Employment%20at%20Anthropic.pdf) |
+| 2026-10-15 | Discovering state-of-the-art quantum circuits with large language models | paper | [Source](https://www.anthropic.com/research/designing-efficient-quantum-circuits) · [Paper](https://arxiv.org/abs/2610.22367) |
+| 2026-10-12 | Gradient Routing Localizes and Removes Unintended Behaviors in RL | paper | [Source](https://alignment.anthropic.com/2026/graft/) · [Paper](https://arxiv.org/abs/2610.17062) |
+| 2026-09-30 | Can we predict the jobs robots will do? | paper | [Source](https://www.anthropic.com/research/what-work-can-robots-do) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/401a473469db99fd39bba1ca6d9a5653a70e2f12.pdf) |
+| 2026-09-24 | Project Swap: What happens when agents trade for us? | paper | [Source](https://www.anthropic.com/research/project-swap) · [Paper](https://www-cdn.anthropic.com/3818cf6119b88f9714d995f6549fa8aac0bd5ab5/Project-Swap.pdf) |
+| 2026-09-17 | How Claude is uplifting biomolecular modeling | paper | [Source](https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling) · [Paper](https://www-cdn.anthropic.com/e96b5807039a88168733d9687afe41dfbbd5de13.pdf) |
+| 2026-09-09 | An alignment assessment of recent cybersecurity incidents | paper | [Source](https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/8359003bfb12a2f01ce84ad3df1d3a3e2f15a8eb.pdf) |
+| 2026-09-04 | Formalizing Fermat's Last Theorem | paper | [Source](https://www.anthropic.com/research/formalizing-fermats-last-theorem) · [Paper](https://www-cdn.anthropic.com/9e431dff043da6538d99d6c2d231b670aa3da263.pdf) |
+| 2026-09 | Economic Scenarios for Transformative AI | paper | [Source](https://www.anthropic.com/institute/econ-scenarios) · [Paper](https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf) |
+| 2026-09 | Detecting and countering misuse of AI: September 2026 | report | [Source](https://www.anthropic.com/threat-intelligence-report-september-2026) · [Paper](https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf) |
+| 2026-08-28 | TASTE: Can AI Models Judge AI Safety Research Proposals? | paper | [Source](https://alignment.anthropic.com/2026/taste/) · [Paper](https://www-cdn.anthropic.com/files/4zrzovbb/website/dd5feddcb3b7d20aadda6af4093ac1fb0c9d419e.pdf) |
+| 2026-08-28 | Automated researchers can reliably mitigate alignment failures | paper | [Source](https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures) · [Paper](https://www-cdn.anthropic.com/7b1c44894e980876479947dcdd40716278aeeffd/automated-alignment-researchers-august-2026.pdf) |
+| 2026-08-26 | Training Alignment Auditors via Reinforcement Learning | paper | [Source](https://alignment.anthropic.com/2026/training-alignment-auditors/) · [Paper](https://arxiv.org/abs/2608.25460) |
+| 2026-08-21 | Characterizing interference weights in a tiny language model | paper | [Source](https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html) · [Paper](https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html) |
+| 2026-08-18 | Protein design with Claude — technical report | paper | [Source](https://www.anthropic.com/research/Claude-accelerates-protein-design) · [Paper](https://www-cdn.anthropic.com/30bf50e22a01388bb29bf077ee3f244531594b7a.pdf) |
+| 2026-08-18 | Chemical analysis with Claude — technical report | paper | [Source](https://www.anthropic.com/research/Claude-accelerates-protein-design) · [Paper](https://www-cdn.anthropic.com/9f08da5189ac269b3242ca760de9823805c3f5f6.pdf/) |
+| 2026-08-17 | Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments | paper | [Source](https://alignment.anthropic.com/2026/chive/) · [Paper](https://arxiv.org/abs/2608.16747) |
+| 2026-08-12 | How well do job retraining programs work? | paper | [Source](https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs) · [Paper](https://www-cdn.anthropic.com/169e4adceebbab066b91e0b45127d73cb2bda24b/WorkerRetraining.pdf) |
+| 2026-08-10 | Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis | paper | [Source](https://www.anthropic.com/research/riemann-zeta) · [Paper](https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf) |
+| 2026-07-28 | HAWK key recovery — technical paper | paper | [Source](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) · [Paper](https://anthropic.com/document/hawk_key_recovery.pdf) |
+| 2026-07-28 | AES Möbius bridge — technical paper | paper | [Source](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) · [Paper](https://anthropic.com/document/aes_mobius_bridge.pdf) |
+| 2026-07-20 | CryptanalysisBench: Can LLMs do Cryptanalysis? | paper | [Source](https://www.anthropic.com/research/discovering-cryptographic-weaknesses) · [Paper](https://arxiv.org/abs/2607.18538) |
+| 2026-07-08 | Modular Pretraining Enables Access Control | paper | [Source](https://alignment.anthropic.com/2026/modular-pretraining/) · [Paper](https://arxiv.org/abs/2607.08077) |
+| 2026-07-06 | Verbalizable Representations Form a Global Workspace in Language Models | paper | [Source](https://transformer-circuits.pub/2026/workspace/index.html) · [Paper](https://transformer-circuits.pub/2026/workspace/index.html) |
+| 2026-06-26 | Turn-Averaged SAEs for Feature Discovery and Long-Context Attribution | paper | [Source](https://transformer-circuits.pub/2026/june-update/index.html) · [Paper](https://arxiv.org/abs/2606.28548) |
+| 2026-06-26 | Anthropic Economic Index report: Cadences | paper | [Source](https://www.anthropic.com/research/economic-index-june-2026-report) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/9e0eadc8097864886c5d5060ebb1f89b02ea29d6.pdf) |
+| 2026-06-16 | How Claude Code is used in practice | paper | [Source](https://www.anthropic.com/research/claude-code-expertise) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/433472e34b60db1a52ebf0b8c6600f057b6908c5.pdf) |
+| 2026-06-08 | Diffuse AI Control on Fuzzy Tasks | paper | [Source](https://alignment.anthropic.com/2026/diffuse-ai-control/) · [Paper](https://arxiv.org/abs/2606.08892) |
+| 2026-06-05 | Making Claude a chemist | paper | [Source](https://www.anthropic.com/research/making-claude-a-chemist) · [Paper](https://www-cdn.anthropic.com/07441e654ad3dfeb0cd090e9361511562825d012.pdf) |
+| 2026-06-04 | Deterministic access to global viral sequence data enables robust agentic scientific discovery | paper | [Source](https://www.anthropic.com/research/agents-in-biology) · [Paper](https://arxiv.org/abs/2606.06749) |
+| 2026-05-15 | SLEIGHT-Bench: A Benchmark of Evasion Attacks Against Agent Monitors | paper | [Source](https://alignment.anthropic.com/2026/sleight-bench/) · [Paper](https://arxiv.org/abs/2605.16626) |
+| 2026-05-13 | ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents | paper | [Source](https://www.anthropic.com/research/exploit-evals) · [Paper](https://arxiv.org/abs/2605.14153) |
+| 2026-05-11 | ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? | paper | [Source](https://www.anthropic.com/research/exploit-evals) · [Paper](https://arxiv.org/abs/2605.11086) |
+| 2026-05-07 | Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations | paper | [Source](https://transformer-circuits.pub/2026/nla/index.html) · [Paper](https://transformer-circuits.pub/2026/nla/index.html) |
+| 2026-05-04 | HeadVis: An Interactive Tool For Investigating Attention Heads | paper | [Source](https://transformer-circuits.pub/2026/headvis/index.html) · [Paper](https://transformer-circuits.pub/2026/headvis/index.html) |
+| 2026-05-03 | Model Spec Midtraining: Improving How Alignment Training Generalizes | paper | [Source](https://alignment.anthropic.com/2026/msm/) · [Paper](https://arxiv.org/abs/2605.02087) |
+| 2026-04-22 | What 81,000 people told us about AI economics | paper | [Source](https://www.anthropic.com/research/81k-economics) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/3a8d990bc90098038eabd77b0d12ff636ed58d50.pdf) |
+| 2026-04-18 | Introspection Adapters: Training LLMs to Report Their Learned Behaviors | paper | [Source](https://alignment.anthropic.com/2026/introspection-adapters/) · [Paper](https://arxiv.org/pdf/2604.16812) |
+| 2026-04-11 | AI Organizations are More Effective but Less Aligned than Individual Agents | paper | [Source](https://alignment.anthropic.com/2026/ai-organizations/) · [Paper](https://arxiv.org/abs/2604.10290) |
+| 2026-04-02 | Emotion concepts in a large language model | paper | [Source](https://www.anthropic.com/research/emotion-concepts-function) · [Paper](https://transformer-circuits.pub/2026/emotions/index.html) |
+| 2026-03-24 | Anthropic Economic Index report: Learning curves | paper | [Source](https://www.anthropic.com/research/economic-index-march-2026-report) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/4053bf3440c0c85b8852052770c5b4cf882689c3.pdf) |
+| 2026-03-05 | Labor market impacts of AI: A new measure | paper | [Source](https://www.anthropic.com/research/labor-market-impacts) · [Paper](https://cdn.sanity.io/files/4zrzovbb/website/2b5bbaf2c1eb81dbf6e6fb813c1a24e35a64d376.pdf) |
+| 2026-02-26 | AuditBench: Evaluating Alignment Auditing Techniques on Models with Hidden Behaviors | paper | [Source](https://alignment.anthropic.com/2026/auditbench/) · [Paper](https://arxiv.org/abs/2602.22755v3) |
+| 2026-02-23 | Three Concrete Challenges and Two Hopes for the Safety of Unsupervised Elicitation | paper | [Source](https://alignment.anthropic.com/2026/challenges-hopes/) · [Paper](https://arxiv.org/abs/2602.20400) |
+| 2026-02-12 | Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs | paper | [Source](https://www.anthropic.com/research/diff-tool) · [Paper](https://arxiv.org/abs/2602.11729) |
+| 2026-02-12 | Abstractive Red-Teaming of Language Model Character | paper | [Source](https://alignment.anthropic.com/2026/abstractive-red-teaming/) · [Paper](https://arxiv.org/abs/2602.12318) |
+| 2026-01-30 | The Hot Mess of AI: How Does Misalignment Scale With Model Intelligence and Task Complexity? | paper | [Source](https://alignment.anthropic.com/2026/hot-mess-of-ai/) · [Paper](https://arxiv.org/abs/2601.23045) |
+| 2026-01-28 | How AI Impacts Skill Formation | paper | [Source](https://www.anthropic.com/research/AI-assistance-coding-skills) · [Paper](https://arxiv.org/abs/2601.20245) |
+| 2026-01-27 | Who's in Charge? Disempowerment Patterns in Real-World LLM Usage | paper | [Source](https://www.anthropic.com/research/disempowerment-patterns) · [Paper](https://arxiv.org/abs/2601.19062) |
+| 2026-01-15 | The Assistant Axis: Situating and Stabilizing the Default Persona of Language Models | paper | [Source](https://www.anthropic.com/research/assistant-axis) · [Paper](https://arxiv.org/abs/2601.10387) |
+| 2026-01-15 | Economic Index report: Economic primitives | paper | [Source](https://www.anthropic.com/research/anthropic-economic-index-january-2026-report) · [Paper](https://www-cdn.anthropic.com/096d94c1a91c6480806d8f24b2344c7e2a4bc666.pdf) |
+| 2026-01-08 | Constitutional Classifiers++: Efficient Production-Grade Defenses against Universal Jailbreaks | paper | [Source](https://www.anthropic.com/research/next-generation-constitutional-classifiers) · [Paper](https://arxiv.org/abs/2601.04603) |
+| 2025-12-19 | Introducing Bloom: Automated behavioral evals | paper | [Source](https://www.anthropic.com/research/bloom) · [Paper](https://alignment.anthropic.com/2025/bloom-auto-evals/) |
+| 2025-12-17 | Activation Oracles: Training and Evaluating LLMs as General-Purpose Activation Explainers | paper | [Source](https://alignment.anthropic.com/2025/activation-oracles/) · [Paper](https://arxiv.org/abs/2512.15674) |
+| 2025-12-05 | Beyond Data Filtering: Knowledge Localization for Capability Removal in LLMs | paper | [Source](https://alignment.anthropic.com/2025/selective-gradient-masking) · [Paper](https://arxiv.org/abs/2512.05648) |
+| 2025-11-25 | Estimating AI productivity gains | paper | [Source](https://www.anthropic.com/research/estimating-productivity-gains) · [Paper](https://www-cdn.anthropic.com/e5645986a7ce8fbcc48fa6d2fc67753c87642c30.pdf) |
+| 2025-11-21 | Natural emergent misalignment from reward hacking | paper | [Source](https://www.anthropic.com/research/emergent-misalignment-reward-hacking) · [Paper](https://assets.anthropic.com/m/74342f2c96095771/original/Natural-emergent-misalignment-from-reward-hacking-paper.pdf) |
+| 2025-11-13 | Disrupting an AI-orchestrated cyber espionage campaign | report | [Source](https://www.anthropic.com/news/disrupting-AI-espionage) · [Paper](https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf) |
+| 2025-11-04 | Optimizing AI Agent Attacks With Synthetic Data | paper | [Source](https://alignment.anthropic.com/2025/strengthening-red-teams/) · [Paper](https://arxiv.org/abs/2511.02823) |
+| 2025-11-04 | Evaluating Control Protocols for Untrusted AI Agents | paper | [Source](https://alignment.anthropic.com/2025/strengthening-red-teams/) · [Paper](https://arxiv.org/abs/2511.02997) |
+| 2025-10-29 | Emergent Introspective Awareness in Large Language Models | paper | [Source](https://transformer-circuits.pub/2025/introspection/index.html) · [Paper](https://transformer-circuits.pub/2025/introspection/index.html) |
+| 2025-10-28 | Anthropic's Pilot Sabotage Risk Report | paper | [Source](https://alignment.anthropic.com/2025/sabotage-risk-report/) · [Paper](https://alignment.anthropic.com/2025/sabotage-risk-report/2025_pilot_risk_report.pdf) |
 
+## Updating the collection
 
+Add verified entries to `data/catalog.json`, retaining their publication date, lab, source URL, paper URL, and date basis. Then run:
 
-## openai paper searching
+```sh
+python3 scripts/render_catalog.py
+```
 
+The command checks dates, duplicate records, duplicate document links, required metadata, and URL syntax before regenerating the Markdown files. It does not perform a new literature search or automatically advance the snapshot window.
 
-| date_published 	| **blog_name** 	| **blog_link** 	| **paper_link** 	|
-|---	|---	|---	|---	|
-| **March 17, 2023** 	| GPTs are GPTs: An early look at the labor market impact potential of large language models 	| https://openai.com/research/gpts-are-gpts 	| https://arxiv.org/abs/2303.10130 	|
-| **March 14, 2023** 	| GPT-4 	| https://openai.com/research/gpt-4 	| https://arxiv.org/abs/2303.08774 	|
-| **January 11, 2023** 	| Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk 	| https://openai.com/research/forecasting-misuse 	| https://arxiv.org/abs/2301.04246 	|
-| **December 16, 2022** 	| Point-E: A system for generating 3D point clouds from complex prompts 	| https://openai.com/research/point-e 	| https://arxiv.org/abs/2212.08751 	|
-| **October 19, 2022** 	| Scaling laws for reward model overoptimization 	| https://openai.com/research/scaling-laws-for-reward-model-overoptimization 	| https://arxiv.org/abs/2210.10760 	|
-| **September 21, 2022** 	| Introducing Whisper 	| https://openai.com/research/whisper 	| https://cdn.openai.com/papers/whisper.pdf 	|
-| **July 28, 2022** 	| Efficient training of language models to fill in the middle 	| https://openai.com/research/efficient-training-of-language-models-to-fill-in-the-middle 	| https://arxiv.org/abs/2207.14255 	|
-| **July 25, 2022** 	| A hazard analysis framework for code synthesis large language models 	| https://openai.com/research/a-hazard-analysis-framework-for-code-synthesis-large-language-models 	| https://arxiv.org/abs/2207.14157 	|
-| **June 28, 2022** 	| DALL·E 2 pre-training mitigations 	| https://openai.com/research/dall-e-2-pre-training-mitigations 	|  	|
-| **June 23, 2022** 	| Learning to play Minecraft with Video PreTraining 	| https://openai.com/research/vpt 	| https://arxiv.org/abs/2206.11795 	|
-| **June 17, 2022** 	| Evolution through large models 	| https://openai.com/research/evolution-through-large-models 	| https://arxiv.org/abs/2206.08896 	|
-| **June 13, 2022** 	| AI-written critiques help humans notice flaws 	| https://openai.com/research/critiques 	| https://arxiv.org/abs/2206.05802 	|
-| **June 9, 2022** 	| Techniques for training large neural networks 	| https://openai.com/research/techniques-for-training-large-neural-networks 	|  	|
-| **May 28, 2022** 	| Teaching models to express their uncertainty in words 	| https://openai.com/research/teaching-models-to-express-their-uncertainty-in-words 	| https://arxiv.org/abs/2205.14334 	|
-| **April 13, 2022** 	| Hierarchical text-conditional image generation with CLIP latents 	| https://openai.com/research/hierarchical-text-conditional-image-generation-with-clip-latents 	| https://arxiv.org/abs/2204.06125 	|
-| **April 13, 2022** 	| Measuring Goodhart’s law 	| https://openai.com/research/measuring-goodharts-law 	|  	|
-| **March 3, 2022** 	| A research agenda for assessing the economic impacts of code generation models 	| https://openai.com/research/economic-impacts 	| https://cdn.openai.com/papers/Economic_Impacts_Research_Agenda.pdf 	|
-| **March 3, 2022** 	| Lessons learned on language model safety and misuse 	| https://openai.com/research/language-model-safety-and-misuse 	|  	|
-| **February 2, 2022** 	| Solving (some) formal math olympiad problems 	| https://openai.com/research/formal-math 	| https://arxiv.org/abs/2202.01344 	|
-| **January 27, 2022** 	| Aligning language models to follow instructions 	| https://openai.com/research/instruction-following 	| https://arxiv.org/abs/2203.02155 	|
-| **January 24, 2022** 	| Text and code embeddings by contrastive pre-training 	| https://openai.com/research/text-and-code-embeddings-by-contrastive-pre-training 	| https://arxiv.org/abs/2201.10005 	|
-| **December 16, 2021** 	| WebGPT: Improving the factual accuracy of language models through web browsing 	| https://openai.com/research/webgpt 	| https://arxiv.org/abs/2112.09332 	|
-| **October 29, 2021** 	| Solving math word problems 	| https://openai.com/research/solving-math-word-problems 	| http://arxiv.org/abs/2110.14168 	|
-| **September 23, 2021** 	| Summarizing books with human feedback 	| https://openai.com/research/summarizing-books 	|  	|
-| **September 8, 2021** 	| TruthfulQA: Measuring how models mimic human falsehoods 	| https://openai.com/research/truthfulqa 	| https://arxiv.org/abs/2109.07958 	|
-| **July 28, 2021** 	| Introducing Triton: Open-source GPU programming for neural networks 	| https://openai.com/research/triton 	|  	|
-| **July 7, 2021** 	| Evaluating large language models trained on code 	| https://openai.com/research/evaluating-large-language-models-trained-on-code 	| https://arxiv.org/abs/2107.03374 	|
-| **June 10, 2021** 	| Improving language model behavior by training on a curated dataset 	| https://openai.com/research/improving-language-model-behavior 	| https://cdn.openai.com/palms.pdf 	|
-| **March 4, 2021** 	| Multimodal neurons in artificial neural networks 	| https://openai.com/research/multimodal-neurons 	| https://distill.pub/2021/multimodal-neurons/ 	|
-| **February 4, 2021** 	| Understanding the capabilities, limitations, and societal impact of large language models 	| https://openai.com/research/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models 	| https://arxiv.org/abs/2102.02503 	|
-| **January 25, 2021** 	| Scaling Kubernetes to 7,500 nodes 	| https://openai.com/research/scaling-kubernetes-to-7500-nodes 	|  	|
-| **January 5, 2021** 	| DALL·E: Creating images from text 	| https://openai.com/research/dall-e 	|  	|
-| **January 5, 2021** 	| CLIP: Connecting text and images 	| https://openai.com/research/clip 	| https://arxiv.org/abs/2103.00020 	|
-| **September 7, 2020** 	| Generative language modeling for automated theorem proving 	| https://openai.com/research/generative-language-modeling-for-automated-theorem-proving 	| https://arxiv.org/abs/2009.03393 	|
-| **September 4, 2020** 	| Learning to summarize with human feedback 	| https://openai.com/research/learning-to-summarize-with-human-feedback 	| https://arxiv.org/abs/2009.01325 	|
-| **June 17, 2020** 	| Image GPT 	| https://openai.com/research/image-gpt 	| https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf 	|
-| **May 28, 2020** 	| Language models are few-shot learners 	| https://openai.com/research/language-models-are-few-shot-learners 	| https://arxiv.org/abs/2005.14165 	|
-| **May 5, 2020** 	| AI and efficiency 	| https://openai.com/research/ai-and-efficiency 	| https://arxiv.org/abs/2005.04305 	|
-| **April 30, 2020** 	| Jukebox 	| https://openai.com/research/jukebox 	| https://arxiv.org/abs/2005.00341 	|
-| **April 16, 2020** 	| Improving verifiability in AI development 	| https://openai.com/research/improving-verifiability 	| https://arxiv.org/abs/2004.07213 	|
-| **April 14, 2020** 	| OpenAI Microscope 	| https://openai.com/research/microscope 	|  	|
-| **January 23, 2020** 	| Scaling laws for neural language models 	| https://openai.com/research/scaling-laws-for-neural-language-models 	| https://arxiv.org/abs/2001.08361 	|
-| **December 13, 2019** 	| Dota 2 with large scale deep reinforcement learning 	| https://openai.com/research/dota-2-with-large-scale-deep-reinforcement-learning 	| https://arxiv.org/abs/1912.06680 	|
-| **December 5, 2019** 	| Deep double descent 	| https://openai.com/research/deep-double-descent 	| https://arxiv.org/abs/1912.02292 	|
-| **December 3, 2019** 	| Procgen Benchmark 	| https://openai.com/research/procgen-benchmark 	| https://arxiv.org/abs/1912.01588 	|
-| **November 21, 2019** 	| Benchmarking safe exploration in deep reinforcement learning 	| https://openai.com/research/benchmarking-safe-exploration-in-deep-reinforcement-learning 	| https://cdn.openai.com/safexp-short.pdf 	|
-| **November 21, 2019** 	| Safety Gym 	| https://openai.com/research/safety-gym 	| https://cdn.openai.com/safexp-short.pdf 	|
-| **November 5, 2019** 	| GPT-2: 1.5B release 	| https://openai.com/research/gpt-2-1-5b-release 	| https://arxiv.org/abs/1908.09203 	|
-| **October 15, 2019** 	| Solving Rubik’s Cube with a robot hand 	| https://openai.com/research/solving-rubiks-cube 	| https://arxiv.org/abs/1910.07113 	|
-| **September 19, 2019** 	| Fine-tuning GPT-2 from human preferences 	| https://openai.com/research/fine-tuning-gpt-2 	| https://arxiv.org/abs/1909.08593 	|
-| **September 17, 2019** 	| Emergent tool use from multi-agent interaction 	| https://openai.com/research/emergent-tool-use 	| https://arxiv.org/abs/1909.07528 	|
-| **August 22, 2019** 	| Testing robustness against unforeseen adversaries 	| https://openai.com/research/testing-robustness 	| http://arxiv.org/abs/1908.08016 	|
-| **August 20, 2019** 	| GPT-2: 6-month follow-up 	| https://openai.com/research/gpt-2-6-month-follow-up 	| https://arxiv.org/abs/1908.09203 	|
-| **July 10, 2019** 	| Why responsible AI development needs cooperation on safety 	| https://openai.com/research/cooperation-on-safety 	| http://arxiv.org/abs/1907.04534 	|
-| **May 3, 2019** 	| Transfer of adversarial robustness between perturbation types 	| https://openai.com/research/transfer-of-adversarial-robustness-between-perturbation-types 	| https://arxiv.org/abs/1905.01034 	|
-| **April 25, 2019** 	| MuseNet 	| https://openai.com/research/musenet 	|  	|
-| **April 23, 2019** 	| Generative modeling with sparse transformers 	| https://openai.com/research/sparse-transformer 	| https://arxiv.org/abs/1904.10509 	|
-| **April 15, 2019** 	| OpenAI Five defeats Dota 2 world champions 	| https://openai.com/research/openai-five-defeats-dota-2-world-champions 	|  	|
-| **March 21, 2019** 	| Implicit generation and generalization methods for energy-based models 	| https://openai.com/research/energy-based-models 	| http://arxiv.org/abs/1903.08689 	|
-| **March 6, 2019** 	| Introducing Activation Atlases 	| https://openai.com/research/introducing-activation-atlases 	| https://distill.pub/2019/activation-atlas/ 	|
-| **March 4, 2019** 	| Neural MMO: A massively multiagent game environment 	| https://openai.com/research/neural-mmo 	| http://arxiv.org/abs/1903.00784 	|
-| **February 19, 2019** 	| AI safety needs social scientists 	| https://openai.com/research/ai-safety-needs-social-scientists 	| https://distill.pub/2019/safety-needs-social-scientists 	|
-| **February 14, 2019** 	| Better language models and their implications 	| https://openai.com/research/better-language-models 	| https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf 	|
-| **February 4, 2019** 	| Computational limitations in robust classification and win-win results 	| https://openai.com/research/computational-limitations-in-robust-classification-and-win-win-results 	| https://arxiv.org/abs/1902.01086 	|
-| **December 14, 2018** 	| How AI training scales 	| https://openai.com/research/how-ai-training-scales 	| https://arxiv.org/pdf/1812.06162.pdf 	|
-| **December 6, 2018** 	| Quantifying generalization in reinforcement learning 	| https://openai.com/research/quantifying-generalization-in-reinforcement-learning 	| https://arxiv.org/abs/1812.02341 	|
-| **November 8, 2018** 	| Spinning Up in Deep RL 	| https://openai.com/research/spinning-up-in-deep-rl 	|  	|
-| **November 7, 2018** 	| Learning concepts with energy functions 	| https://openai.com/research/learning-concepts-with-energy-functions 	| https://arxiv.org/abs/1811.02486 	|
-| **November 5, 2018** 	| Plan online, learn offline: Efficient learning and exploration via model-based control 	| https://openai.com/research/plan-online-learn-offline 	| https://arxiv.org/abs/1811.01848 	|
-| **October 31, 2018** 	| Reinforcement learning with prediction-based rewards 	| https://openai.com/research/reinforcement-learning-with-prediction-based-rewards 	| https://arxiv.org/abs/1810.12894 	|
-| **October 22, 2018** 	| Learning complex goals with iterated amplification 	| https://openai.com/research/learning-complex-goals-with-iterated-amplification 	| https://arxiv.org/abs/1810.08575 	|
-| **October 2, 2018** 	| FFJORD: Free-form continuous dynamics for scalable reversible generative models 	| https://openai.com/research/ffjord 	| https://arxiv.org/abs/1810.01367 	|
-| **August 23, 2018** 	| The International 2018: Results 	| https://openai.com/research/the-international-2018-results 	|  	|
-| **August 13, 2018** 	| Large-scale study of curiosity-driven learning 	| https://openai.com/research/large-scale-study-of-curiosity-driven-learning 	| https://arxiv.org/abs/1808.04355 	|
-| **August 6, 2018** 	| OpenAI Five Benchmark: Results 	| https://openai.com/research/openai-five-benchmark-results 	|  	|
-| **July 30, 2018** 	| Learning dexterity 	| https://openai.com/research/learning-dexterity 	| https://arxiv.org/abs/1808.00177 	|
-| **July 26, 2018** 	| Variational option discovery algorithms 	| https://openai.com/research/variational-option-discovery-algorithms 	| https://arxiv.org/abs/1807.10299 	|
-| **July 9, 2018** 	| Glow: Better reversible generative models 	| https://openai.com/research/glow 	| https://arxiv.org/abs/1807.03039 	|
-| **July 4, 2018** 	| Learning Montezuma’s Revenge from a single demonstration 	| https://openai.com/research/learning-montezumas-revenge-from-a-single-demonstration 	|  	|
-| **June 25, 2018** 	| OpenAI Five 	| https://openai.com/research/openai-five 	|  	|
-| **June 22, 2018** 	| Retro Contest: Results 	| https://openai.com/research/retro-contest-results 	|  	|
-| **June 17, 2018** 	| Learning policy representations in multiagent systems 	| https://openai.com/research/learning-policy-representations-in-multiagent-systems 	| https://arxiv.org/abs/1806.06464 	|
-| **June 11, 2018** 	| Improving language understanding with unsupervised learning 	| https://openai.com/research/language-unsupervised 	| https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf 	|
-| **June 2, 2018** 	| GamePad: A learning environment for theorem proving 	| https://openai.com/research/gamepad 	| https://arxiv.org/abs/1806.00608 	|
-| **May 25, 2018** 	| Gym Retro 	| https://openai.com/research/gym-retro 	|  	|
-| **May 16, 2018** 	| AI and compute 	| https://openai.com/research/ai-and-compute 	|  	|
-| **May 3, 2018** 	| AI safety via debate 	| https://openai.com/research/debate 	| https://arxiv.org/abs/1805.00899 	|
-| **April 18, 2018** 	| Evolved Policy Gradients 	| https://openai.com/research/evolved-policy-gradients 	| https://arxiv.org/abs/1802.04821 	|
-| **April 10, 2018** 	| Gotta Learn Fast: A new benchmark for generalization in RL 	| https://openai.com/research/gotta-learn-fast 	| https://arxiv.org/abs/1804.03720 	|
-| **April 5, 2018** 	| Retro Contest 	| https://openai.com/research/retro-contest 	| https://arxiv.org/abs/1804.03720 	|
-| **March 20, 2018** 	| Variance reduction for policy gradient with action-dependent factorized baselines 	| https://openai.com/research/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines 	| https://arxiv.org/abs/1803.07246 	|
-| **March 15, 2018** 	| Improving GANs using optimal transport 	| https://openai.com/research/improving-gans-using-optimal-transport 	| https://arxiv.org/abs/1803.05573 	|
-| **March 8, 2018** 	| On first-order meta-learning algorithms 	| https://openai.com/research/on-first-order-meta-learning-algorithms 	| https://arxiv.org/abs/1803.02999 	|
-| **March 7, 2018** 	| Reptile: A scalable meta-learning algorithm 	| https://openai.com/research/reptile 	| https://arxiv.org/abs/1803.02999 	|
-| **March 3, 2018** 	| Some considerations on learning to explore via meta-reinforcement learning 	| https://openai.com/research/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning 	| https://arxiv.org/abs/1803.01118 	|
-| **February 26, 2018** 	| Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research 	| https://openai.com/research/multi-goal-reinforcement-learning 	| https://arxiv.org/abs/1802.09464 	|
-| **February 26, 2018** 	| Ingredients for robotics research 	| https://openai.com/research/ingredients-for-robotics-research 	| https://arxiv.org/abs/1802.09464 	|
-| **February 20, 2018** 	| Preparing for malicious uses of AI 	| https://openai.com/research/preparing-for-malicious-uses-of-ai 	| https://arxiv.org/abs/1802.07228 	|
-| **February 15, 2018** 	| Interpretable machine learning through teaching 	| https://openai.com/research/interpretable-machine-learning-through-teaching 	| https://arxiv.org/abs/1711.00694 	|
-| **February 7, 2018** 	| Discovering types for entity disambiguation 	| https://openai.com/research/discovering-types-for-entity-disambiguation 	| https://arxiv.org/abs/1802.01021 	|
-| **January 31, 2018** 	| Requests for Research 2.0 	| https://openai.com/research/requests-for-research-2 	|  	|
-| **January 18, 2018** 	| Scaling Kubernetes to 2,500 nodes 	| https://openai.com/research/scaling-kubernetes-to-2500-nodes 	|  	|
-| **December 6, 2017** 	| Block-sparse GPU kernels 	| https://openai.com/research/block-sparse-gpu-kernels 	| https://cdn.openai.com/blocksparse/blocksparsepaper.pdf 	|
-| **December 4, 2017** 	| Learning sparse neural networks through L₀ regularization 	| https://openai.com/research/learning-sparse-neural-networks-through-l0-regularization 	| https://arxiv.org/abs/1712.01312 	|
-| **November 2, 2017** 	| Interpretable and pedagogical examples 	| https://openai.com/research/interpretable-and-pedagogical-examples 	| https://arxiv.org/abs/1711.00694 	|
-| **October 26, 2017** 	| Learning a hierarchy 	| https://openai.com/research/learning-a-hierarchy 	| https://arxiv.org/abs/1710.09767 	|
-| **October 19, 2017** 	| Generalizing from simulation 	| https://openai.com/research/generalizing-from-simulation 	|  	|
-| **October 18, 2017** 	| Asymmetric actor critic for image-based robot learning 	| https://openai.com/research/asymmetric-actor-critic-for-image-based-robot-learning 	|  	|
-| **October 18, 2017** 	| Sim-to-real transfer of robotic control with dynamics randomization 	| https://openai.com/research/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization 	| https://arxiv.org/abs/1710.06537 	|
-| **October 17, 2017** 	| Domain randomization and generative models for robotic grasping 	| https://openai.com/research/domain-randomization-and-generative-models-for-robotic-grasping 	| https://arxiv.org/abs/1710.06425 	|
-| **October 11, 2017** 	| Meta-learning for wrestling 	| https://openai.com/research/meta-learning-for-wrestling 	| https://arxiv.org/abs/1710.03641 	|
-| **October 11, 2017** 	| Competitive self-play 	| https://openai.com/research/competitive-self-play 	| https://arxiv.org/abs/1710.03748 	|
-| **September 29, 2017** 	| Nonlinear computation in deep linear networks 	| https://openai.com/research/nonlinear-computation-in-deep-linear-networks 	|  	|
-| **September 14, 2017** 	| Learning to model other minds 	| https://openai.com/research/learning-to-model-other-minds 	| https://arxiv.org/abs/1709.04326 	|
-| **September 13, 2017** 	| Learning with opponent-learning awareness 	| https://openai.com/research/learning-with-opponent-learning-awareness 	| https://arxiv.org/abs/1709.04326 	|
-| **August 18, 2017** 	| OpenAI Baselines: ACKTR & A2C 	| https://openai.com/research/openai-baselines-acktr-a2c 	| https://arxiv.org/abs/1708.05144 	|
-| **August 16, 2017** 	| More on Dota 2 	| https://openai.com/research/more-on-dota-2 	|  	|
-| **August 11, 2017** 	| Dota 2 	| https://openai.com/research/dota-2 	|  	|
-| **August 3, 2017** 	| Gathering human feedback 	| https://openai.com/research/gathering-human-feedback 	|  	|
-| **July 27, 2017** 	| Better exploration with parameter noise 	| https://openai.com/research/better-exploration-with-parameter-noise 	| https://arxiv.org/abs/1706.01905 	|
-| **July 20, 2017** 	| Proximal Policy Optimization 	| https://openai.com/research/openai-baselines-ppo 	| https://arxiv.org/abs/1707.06347 	|
-| **July 17, 2017** 	| Robust adversarial inputs 	| https://openai.com/research/robust-adversarial-inputs 	| https://arxiv.org/abs/1707.07397 	|
-| **July 5, 2017** 	| Hindsight Experience Replay 	| https://openai.com/research/hindsight-experience-replay 	| https://arxiv.org/abs/1707.01495 	|
-| **July 1, 2017** 	| Teacher–student curriculum learning 	| https://openai.com/research/teacher-student-curriculum-learning 	| https://arxiv.org/abs/1707.00183 	|
-| **June 28, 2017** 	| Faster physics in Python 	| https://openai.com/research/faster-physics-in-python 	|  	|
-| **June 13, 2017** 	| Learning from human preferences 	| https://openai.com/research/learning-from-human-preferences 	| https://arxiv.org/abs/1706.03741 	|
-| **June 8, 2017** 	| Learning to cooperate, compete, and communicate 	| https://openai.com/research/learning-to-cooperate-compete-and-communicate 	| https://arxiv.org/abs/1706.02275 	|
-| **June 5, 2017** 	| UCB exploration via Q-ensembles 	| https://openai.com/research/ucb-exploration-via-q-ensembles 	| https://arxiv.org/abs/1706.01502 	|
-| **May 24, 2017** 	| OpenAI Baselines: DQN 	| https://openai.com/research/openai-baselines-dqn 	|  	|
-| **May 16, 2017** 	| Robots that learn 	| https://openai.com/research/robots-that-learn 	|  	|
-| **May 15, 2017** 	| Roboschool 	| https://openai.com/research/roboschool 	|  	|
-| **April 21, 2017** 	| Equivalence between policy gradients and soft Q-learning 	| https://openai.com/research/equivalence-between-policy-gradients-and-soft-q-learning 	| https://arxiv.org/abs/1704.06440 	|
-| **April 10, 2017** 	| Stochastic Neural Networks for hierarchical reinforcement learning 	| https://openai.com/research/stochastic-neural-networks-for-hierarchical-reinforcement-learning 	| https://arxiv.org/abs/1704.03012 	|
-| **April 6, 2017** 	| Unsupervised sentiment neuron 	| https://openai.com/research/unsupervised-sentiment-neuron 	| https://arxiv.org/abs/1704.01444 	|
-| **April 1, 2017** 	| Spam detection in the physical world 	| https://openai.com/research/spam-detection-in-the-physical-world 	|  	|
-| **March 24, 2017** 	| Evolution strategies as a scalable alternative to reinforcement learning 	| https://openai.com/research/evolution-strategies 	| https://arxiv.org/abs/1703.03864 	|
-| **March 21, 2017** 	| One-shot imitation learning 	| https://openai.com/research/one-shot-imitation-learning 	| https://arxiv.org/abs/1703.07326 	|
-| **March 16, 2017** 	| Learning to communicate 	| https://openai.com/research/learning-to-communicate 	|  	|
-| **March 15, 2017** 	| Emergence of grounded compositional language in multi-agent populations 	| https://openai.com/research/emergence-of-grounded-compositional-language-in-multi-agent-populations 	| https://arxiv.org/abs/1703.04908 	|
-| **March 12, 2017** 	| Prediction and control with temporal segment models 	| https://openai.com/research/prediction-and-control-with-temporal-segment-models 	| https://arxiv.org/abs/1703.04070 	|
-| **March 6, 2017** 	| Third-person imitation learning 	| https://openai.com/research/third-person-imitation-learning 	| https://arxiv.org/abs/1703.01703 	|
-| **February 24, 2017** 	| Attacking machine learning with adversarial examples 	| https://openai.com/research/attacking-machine-learning-with-adversarial-examples 	|  	|
-| **February 8, 2017** 	| Adversarial attacks on neural network policies 	| https://openai.com/research/adversarial-attacks-on-neural-network-policies 	| https://arxiv.org/abs/1702.02284 	|
-| **January 19, 2017** 	| PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications 	| https://openai.com/research/pixelcnn-plus-plus 	| https://arxiv.org/abs/1701.05517 	|
-| **December 21, 2016** 	| Faulty reward functions in the wild 	| https://openai.com/research/faulty-reward-functions 	|  	|
-| **December 5, 2016** 	| Universe 	| https://openai.com/research/universe 	|  	|
-| **November 15, 2016** 	| #Exploration: A study of count-based exploration for deep reinforcement learning 	| https://openai.com/research/exploration 	| https://arxiv.org/abs/1611.04717 	|
-| **November 14, 2016** 	| On the quantitative analysis of decoder-based generative models 	| https://openai.com/research/on-the-quantitative-analysis-of-decoder-based-generative-models 	| https://arxiv.org/abs/1611.04273 	|
-| **November 11, 2016** 	| A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models 	| https://openai.com/research/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models 	| https://arxiv.org/abs/1611.03852 	|
-| **November 9, 2016** 	| RL²: Fast reinforcement learning via slow reinforcement learning 	| https://openai.com/research/rl2 	| https://arxiv.org/abs/1611.02779 	|
-| **November 8, 2016** 	| Variational lossy autoencoder 	| https://openai.com/research/variational-lossy-autoencoder 	| https://arxiv.org/abs/1611.02731 	|
-| **November 2, 2016** 	| Extensions and limitations of the neural GPU 	| https://openai.com/research/extensions-and-limitations-of-the-neural-gpu 	| https://arxiv.org/abs/1611.00736 	|
-| **October 18, 2016** 	| Semi-supervised knowledge transfer for deep learning from private training data 	| https://openai.com/research/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data 	| https://arxiv.org/abs/1610.05755 	|
-| **October 11, 2016** 	| Transfer from simulation to real world through learning deep inverse dynamics model 	| https://openai.com/research/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model 	| https://arxiv.org/abs/1610.03518 	|
-| **August 29, 2016** 	| Infrastructure for deep learning 	| https://openai.com/research/infrastructure-for-deep-learning 	|  	|
-| **June 21, 2016** 	| Concrete AI safety problems 	| https://openai.com/research/concrete-ai-safety-problems 	| https://arxiv.org/abs/1606.06565 	|
-| **June 16, 2016** 	| Generative models 	| https://openai.com/research/generative-models 	|  	|
-| **May 25, 2016** 	| Adversarial training methods for semi-supervised text classification 	| https://openai.com/research/adversarial-training-methods-for-semi-supervised-text-classification 	| https://arxiv.org/abs/1605.07725 	|
-| **April 27, 2016** 	| OpenAI Gym Beta 	| https://openai.com/research/openai-gym-beta 	| https://arxiv.org/abs/1606.01540 	|
-| **February 25, 2016** 	| Weight normalization: A simple reparameterization to accelerate training of deep neural networks 	| https://openai.com/research/weight-normalization 	| https://arxiv.org/abs/1602.07868 	|
+Originally forked from [chenxingqiang/awsome-openai-paper](https://github.com/chenxingqiang/awsome-openai-paper). Its original files are preserved under `archive/`.
