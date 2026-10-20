@@ -1,4 +1,23 @@
-# awsome-openai-paper
+# Awesome OpenAI and Anthropic Papers
+
+A curated collection of research from OpenAI and Anthropic, with the original OpenAI bibliography preserved below.
+
+## Recent papers — past year
+
+Updated: **2026-10-21**. This selection contains **two papers total**, one from each lab, announced between **2025-10-21 and 2026-10-21** (inclusive). Dates refer to the linked official research announcements. This is a curated selection, not an exhaustive list or a claim that these are the two newest papers.
+
+| Date | Lab | Paper | Official announcement | Full paper |
+|---|---|---|---|---|
+| 2026-09-23 | OpenAI | MentalHealthBench: An Expert-Informed Benchmark of AI Capabilities in Realistic Mental Health Conversations | [OpenAI](https://openai.com/index/introducing-mentalhealthbench/) | [PDF](https://cdn.openai.com/ctf-cdn/MentalHealthBench_A_Comprehensive_Benchmark_of_AI_Capabilities_in_Realistic_Mental_Health_Conversations.pdf) |
+| 2026-08-28 | Anthropic / Anthropic Fellows Program | TASTE: Can AI Models Judge AI Safety Research Proposals? | [Anthropic](https://alignment.anthropic.com/2026/taste/) | [PDF](https://www-cdn.anthropic.com/files/4zrzovbb/website/dd5feddcb3b7d20aadda6af4093ac1fb0c9d419e.pdf) |
+
+- **MentalHealthBench** evaluates model responses to 1,215 realistic mental health conversations using rubrics developed with licensed mental health experts.
+- **TASTE** evaluates how well models' preferences over AI safety research proposals match experienced researchers' judgments, using 92 pairwise comparisons.
+
+## Historical OpenAI bibliography
+
+The material below and the other OpenAI indexes are inherited from [chenxingqiang/awsome-openai-paper](https://github.com/chenxingqiang/awsome-openai-paper). They include papers outside the one-year window and remain available as an archive.
+
 ## Author relate to OpenAI
 
 
