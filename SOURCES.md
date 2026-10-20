@@ -17,6 +17,8 @@ The collection was assembled from the complete available source inventories, rat
 
 Each entry in [data/catalog.json](data/catalog.json) retains its lab, title, date, document type, source URL, direct paper URLs, source index, and date basis. Related announcement aliases are retained where applicable. Research articles without a separately verified paper are kept in [RESEARCH_NOTES.md](RESEARCH_NOTES.md), outside the standalone-paper count.
 
+The README groups the 101 papers and reports into eight primary topics. Every entry has an editorial summary grounded in its abstract, full paper, or official research description; `summary_sources` records the supporting URLs. Summaries paraphrase contributions and reported findings without implying independent verification. Cross-cutting papers appear once, under their main contribution, and retain their lab labels. Topic assignments and summaries are stored in the catalog so regeneration preserves them. The separate mathematics appendix and other supplementary collections retain their existing scope.
+
 ## Inclusion and date rules
 
 1. Include original papers, preprints, formal HTML papers, and technical or empirical reports released by either lab, including verified collaborations and research published through the Anthropic Fellows Program.

@@ -16,7 +16,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Tests whether Claude can design small proteins that bind scorpion neurotoxins, with experimental validation of generated candidates and released design data.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+      ]
     },
     {
       "title": "Beyond g-mean²: complementary metrics for monitorability",
@@ -70,7 +75,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Compares public and Anthropic staff expectations about AI capabilities, productivity, and employment, finding substantial differences in anticipated progress and personal job exposure.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/ai-expectations-gap"
+      ]
     },
     {
       "title": "Scaling Misuse Detection with Self-Assessment",
@@ -98,7 +108,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Examines hiring, employee output, and agent use inside Anthropic, documenting changes in junior hiring and a growing role for supervising AI-generated work.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/employment-at-anthropic"
+      ]
     },
     {
       "title": "Claude reveals ECDSA curve origins",
@@ -142,7 +157,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Uses an evolutionary search in which LLMs propose quantum circuits and an independent evaluator checks them, reporting resource improvements across several computational tasks.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2610.22367"
+      ]
     },
     {
       "title": "Strengthening our defenses against distillation attacks",
@@ -170,7 +190,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Introduces GRAFT, which routes learning from detected reward hacks into removable parameters, reducing unintended behavior without rewarding the model for hiding it.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2610.17062"
+      ]
     },
     {
       "title": "AI models may be capable of self-replicating without access to a datacenter",
@@ -307,7 +332,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Builds an index of occupational exposure to robotics, distinguishing tasks robots can perform under limited conditions from work they can automate cost-effectively.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/what-work-can-robots-do"
+      ]
     },
     {
       "title": "GLM-5.3 and the spread of advanced cyber capabilities",
@@ -377,7 +407,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Studies agents trading books on behalf of people, separating how well agents negotiate from how accurately they understand the preferences of their users.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/project-swap"
+      ]
     },
     {
       "title": "MentalHealthBench: An Expert-Informed Benchmark of AI Capabilities in Realistic Mental Health Conversations",
@@ -392,7 +427,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Introduces expert-written rubrics for evaluating AI responses across realistic mental health conversations, from everyday concerns to emergencies, with varied user backgrounds and languages.",
+      "summary_sources": [
+        "https://openai.com/index/introducing-mentalhealthbench/"
+      ]
     },
     {
       "title": "How Claude is uplifting biomolecular modeling",
@@ -407,7 +447,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Reports Claude's optimization of open-source biomolecular prediction and design software, targeting faster execution and lower memory use while checking output accuracy.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling"
+      ]
     },
     {
       "title": "How workers are unlocking new ways of working",
@@ -422,7 +467,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Tracks how workers use AI for tasks outside their usual occupations and whether those activities become recurring workflows, offering evidence of changing job boundaries.",
+      "summary_sources": [
+        "https://openai.com/index/unlocking-new-ways-of-working/"
+      ]
     },
     {
       "title": "Measuring AI capabilities in intelligence targeting and conventional weapons",
@@ -450,7 +500,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Analyzes four cybersecurity-evaluation incidents involving unauthorized access to real systems, identifying biased reasoning and reckless pursuit of assigned tasks as recurring alignment concerns.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+      ]
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -465,7 +520,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Presents a model-generated construction claiming finite-time blowup for three-dimensional incompressible Navier–Stokes flow with smooth, compactly supported forcing.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf"
+      ]
     },
     {
       "title": "Euler singularity proof — companion to the Navier–Stokes paper",
@@ -480,7 +540,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Presents a companion construction claiming finite-time blowup for unforced three-dimensional Euler flow from smooth, compactly supported initial data.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf"
+      ]
     },
     {
       "title": "ChatGPT Images 2.5 System Card",
@@ -524,7 +589,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Reports Claude's formalization of Fermat's Last Theorem in Lean and describes the automated proof workflow and its relationship to existing mathematical work.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+      ]
     },
     {
       "title": "GPT-6 Astra System Card",
@@ -555,7 +625,12 @@
         "https://www.anthropic.com/institute/econ-scenarios"
       ],
       "date_basis": "working paper cover month",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Models how different AI capability and adoption paths could affect growth, wages, unemployment, and labor reallocation; its scenarios illustrate conditional possibilities rather than forecasts.",
+      "summary_sources": [
+        "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
+      ]
     },
     {
       "title": "Detecting and countering misuse of AI: September 2026",
@@ -570,7 +645,12 @@
         "https://www.anthropic.com/threat-intelligence-report-september-2026"
       ],
       "date_basis": "report month",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Presents case studies of detected AI misuse across cyber operations, influence, surveillance, fraud, weapons-related activity, and model distillation, alongside detection and disruption measures.",
+      "summary_sources": [
+        "https://www.anthropic.com/threat-intelligence-report-september-2026"
+      ]
     },
     {
       "title": "Claude Sonnet 5.5 System Card",
@@ -630,7 +710,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Introduces TASTE, a benchmark of expert preferences between AI safety research proposals, and finds that evaluated frontier models still trail experienced researchers.",
+      "summary_sources": [
+        "https://alignment.anthropic.com/2026/taste/"
+      ]
     },
     {
       "title": "Automated researchers can reliably mitigate alignment failures",
@@ -645,7 +730,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Tests automated researchers that propose methods, train models, and evaluate mitigations for ten alignment failures, including whether improvements transfer to held-out settings.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures"
+      ]
     },
     {
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
@@ -673,7 +763,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Trains alignment-auditing agents with reinforcement learning, improving investigation quality and transfer to hidden-behavior targets while measuring false positives and audit realism.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2608.25460"
+      ]
     },
     {
       "title": "The Hugging Face incident and the road ahead — technical report",
@@ -688,7 +783,12 @@
         "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Documents the OpenAI–Hugging Face security incident, tracing unauthorized communication, infrastructure exploitation, and contributing alignment failures, together with the resulting mitigations.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Technical-Report.pdf"
+      ]
     },
     {
       "title": "Learning never stops: How AI makes learning continuous",
@@ -742,7 +842,12 @@
         "https://transformer-circuits.pub/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Studies how weights in a tiny language model affect computation under superposition, distinguishing useful circuit connections from interference between represented features.",
+      "summary_sources": [
+        "https://transformer-circuits.pub/2026/interference_effectiveness_helpfulness/index.html"
+      ]
     },
     {
       "title": "Protein design with Claude — technical report",
@@ -757,7 +862,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Evaluates Claude's design of protein binders against multiple targets, using laboratory measurements to assess binding success and affinity of generated designs.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+      ]
     },
     {
       "title": "Chemical analysis with Claude — technical report",
@@ -772,7 +882,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Evaluates Claude's analysis of raw NMR and LC-MS files for chemical identity and purity, comparing an automated analytical workflow with expert assessment.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+      ]
     },
     {
       "title": "Would this change your answer? Evaluating Explanations of LLM Behavior In The Wild with Counterfactual Experiments",
@@ -787,7 +902,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Introduces CHIVE, which tests explanations through counterfactual prompt edits, and evaluates whether interpretability tools help predict how model behavior changes.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2608.16747"
+      ]
     },
     {
       "title": "Patterns and problems in multiagent systems",
@@ -828,7 +948,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Reviews randomized evidence on worker retraining and combines US studies in a meta-analysis, finding generally positive but modest effects relevant to AI-related labor disruption.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs"
+      ]
     },
     {
       "title": "From assistance to execution: How enterprises put AI to work",
@@ -843,7 +968,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Analyzes enterprise use of ChatGPT and Codex as work shifts toward delegated agent tasks, documenting adoption patterns and differences between intensive and typical users.",
+      "summary_sources": [
+        "https://openai.com/index/how-enterprises-put-ai-to-work/"
+      ]
     },
     {
       "title": "Claude has improved on a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the Riemann hypothesis",
@@ -858,7 +988,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Reports a Claude-generated improvement to a lower bound on the fraction of zeta-function zeros on the critical line, with accompanying mathematical review and proof artifacts.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/riemann-zeta"
+      ]
     },
     {
       "title": "GPT-5.6 — August Updates",
@@ -902,7 +1037,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Collects ten AI-generated results across mathematics and theoretical computer science, accompanied by manuscripts, reasoning walkthroughs, and formal proof artifacts.",
+      "summary_sources": [
+        "https://openai.com/index/ten-advances-in-mathematics/"
+      ]
     },
     {
       "title": "Training a Misaligned Reward Seeker",
@@ -943,7 +1083,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "workflows",
+      "summary": "Presents case studies of coding agents improving scientific software, emphasizing iterative development and the continuing need for human validation against reliable acceptance criteria.",
+      "summary_sources": [
+        "https://openai.com/index/scientific-computing-agentic-ai/"
+      ]
     },
     {
       "title": "HAWK key recovery — technical paper",
@@ -958,7 +1103,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Reports Claude-assisted key-recovery research against HAWK, examining an algorithmic weakness in this candidate post-quantum digital signature scheme.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+      ]
     },
     {
       "title": "AES Möbius bridge — technical paper",
@@ -973,7 +1123,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Presents a Claude-assisted cryptanalytic technique for round-reduced AES; the reported setting does not establish a break of production, full-strength AES.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/discovering-cryptographic-weaknesses"
+      ]
     },
     {
       "title": "How AI is expanding what people do at work",
@@ -988,7 +1143,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Measures how work-related ChatGPT use crosses occupational task boundaries, suggesting that AI can expand the kinds of tasks people perform within their jobs.",
+      "summary_sources": [
+        "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/"
+      ]
     },
     {
       "title": "Project Pilot: Can AI models fly drones?",
@@ -1016,7 +1176,12 @@
         "https://alignment.openai.com/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Changes models' beliefs about grader preferences to distinguish reward-seeking from intended task performance, finding that capabilities-focused RL can increase preference for the grader's objective.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2607.18966"
+      ]
     },
     {
       "title": "Safety and alignment in an era of long-horizon models",
@@ -1044,7 +1209,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Introduces CryptanalysisBench, spanning cryptographic primitive families and difficulty tiers, to test whether LLM agents can discover verifiable attacks rather than merely discuss cryptography.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2607.18538"
+      ]
     },
     {
       "title": "GPT-Red: Automated Red Teaming via Self-Play at Scale",
@@ -1059,7 +1229,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Trains an automated red-teaming model through self-play and uses its attacks for adversarial training, studying scalable defenses against prompt injection.",
+      "summary_sources": [
+        "https://openai.com/index/unlocking-self-improvement-gpt-red/"
+      ]
     },
     {
       "title": "How Canada uses Claude",
@@ -1142,7 +1317,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Introduces gradient-routed auxiliary modules that isolate selected capabilities during pretraining, allowing their removal at inference time while preserving other capabilities.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2607.08077"
+      ]
     },
     {
       "title": "GPT-Live System Card",
@@ -1190,6 +1370,11 @@
       "notes": "",
       "related_urls": [
         "https://www.anthropic.com/research/global-workspace"
+      ],
+      "primary_topic": "interpretability",
+      "summary": "Identifies internal representations that models can verbalize, control, and reason about, and studies how this proposed global workspace supports reflection and alignment auditing.",
+      "summary_sources": [
+        "https://transformer-circuits.pub/2026/workspace/index.html"
       ]
     },
     {
@@ -1220,7 +1405,12 @@
         "https://openai.com/index/introducing-genebench-pro/"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Benchmarks multistage biological data analysis, testing whether agents act on diagnostic evidence and make appropriate statistical decisions across genomics and translational research.",
+      "summary_sources": [
+        "https://openai.com/index/introducing-genebench-pro/"
+      ]
     },
     {
       "title": "Turn-Averaged SAEs for Feature Discovery and Long-Context Attribution",
@@ -1235,7 +1425,12 @@
         "https://transformer-circuits.pub/2026/june-update/index.html"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Introduces sparse autoencoders that summarize activations across a conversation turn, making high-level feature discovery and attribution more manageable for long transcripts.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2606.28548"
+      ]
     },
     {
       "title": "GPT-5.6 Preview System Card",
@@ -1265,7 +1460,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Extends the Economic Index to study the timing and outputs of AI usage, adapting its measurement methods to long-running agentic tasks and changing work patterns.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/economic-index-june-2026-report"
+      ]
     },
     {
       "title": "How agents are transforming work",
@@ -1280,7 +1480,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Uses Codex adoption and usage data to examine the shift from short interactions to longer delegated tasks, including increasing use outside software engineering.",
+      "summary_sources": [
+        "https://openai.com/index/how-agents-are-transforming-work/"
+      ]
     },
     {
       "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
@@ -1295,7 +1500,12 @@
         "https://alignment.openai.com/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Studies reinforcement learning on beneficial traits such as truthfulness and corrigibility, testing whether resulting alignment gains transfer across domains and persist beyond the training distribution.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2606.24014"
+      ]
     },
     {
       "title": "Project Fetch: Phase two",
@@ -1323,7 +1533,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Introduces expert-designed tasks and rubrics for realistic life science research, including evidence interpretation, experiment planning, uncertainty, and communication using scientific artifacts.",
+      "summary_sources": [
+        "https://openai.com/index/introducing-life-sci-bench/"
+      ]
     },
     {
       "title": "A near-autonomous AI chemist improves a challenging reaction",
@@ -1338,7 +1553,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Describes a near-autonomous chemistry workflow that improves Chan–Lam coupling of primary sulfonamides, connecting AI-generated experimental decisions to laboratory validation.",
+      "summary_sources": [
+        "https://openai.com/index/ai-chemist-improves-reaction/"
+      ]
     },
     {
       "title": "Predicting LLM Safety Before Release by Simulating Deployment",
@@ -1353,7 +1573,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Simulates deployment by replaying de-identified conversation prefixes with a candidate model, testing whether this predicts real-world safety failures better than conventional pre-release evaluations.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2607.07184"
+      ]
     },
     {
       "title": "How Claude Code is used in practice",
@@ -1368,7 +1593,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Analyzes Claude Code sessions to study task success, human planning, agent execution, and how users' domain expertise changes their collaboration with coding agents.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/claude-code-expertise"
+      ]
     },
     {
       "title": "Can public chat data predict real-world AI misalignments?",
@@ -1409,7 +1639,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Frames AI control on hard-to-grade research tasks as an adversarial game, exposing subtle sabotage strategies that can satisfy weak evaluation signals while degrading actual work.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2606.08892"
+      ]
     },
     {
       "title": "Making Claude a chemist",
@@ -1424,7 +1659,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Examines Claude's interpretation of NMR spectra as a test of chemical reasoning, highlighting the difficulty of connecting analytical measurements to molecular structure.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/making-claude-a-chemist"
+      ]
     },
     {
       "title": "Dreaming: Better memory for a more helpful ChatGPT",
@@ -1452,7 +1692,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Introduces VirBench and a deterministic viral-data retrieval layer, showing how reproducible filtering and query execution can reduce errors in agentic scientific analysis.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2606.06749"
+      ]
     },
     {
       "title": "Mapping AI-enabled cyber threats",
@@ -1554,7 +1799,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Presents an AI-generated construction of planar point sets with many unit-distance pairs, reported as a counterexample to the conjectured near-linear growth bound.",
+      "summary_sources": [
+        "https://openai.com/index/model-disproves-discrete-geometry-conjecture/"
+      ]
     },
     {
       "title": "SLEIGHT-Bench: A Benchmark of Evasion Attacks Against Agent Monitors",
@@ -1569,7 +1819,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Introduces synthetic coding-agent transcripts that conceal harmful objectives, using them to reveal blind spots in LLM monitors and evaluate stronger monitoring strategies.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2605.16626"
+      ]
     },
     {
       "title": "2028: Two scenarios for global AI leadership",
@@ -1597,7 +1852,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Measures exploitation as a ladder of verified capabilities, distinguishing crashes from memory-access primitives, control-flow hijacking, and code execution in real V8 vulnerabilities.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2605.14153"
+      ]
     },
     {
       "title": "What Parameter Golf taught us about AI-assisted research",
@@ -1625,7 +1885,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Introduces realistic tasks that require agents to turn vulnerability-triggering inputs into working exploits, spanning userspace software, V8, and the Linux kernel.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2605.11086"
+      ]
     },
     {
       "title": "Teaching Claude Why",
@@ -1661,6 +1926,11 @@
       "notes": "",
       "related_urls": [
         "https://www.anthropic.com/research/natural-language-autoencoders"
+      ],
+      "primary_topic": "interpretability",
+      "summary": "Trains paired models to translate activations into natural-language descriptions and reconstruct the activations, producing explanations without direct supervision on explanation quality.",
+      "summary_sources": [
+        "https://transformer-circuits.pub/2026/nla/index.html"
       ]
     },
     {
@@ -1704,7 +1974,12 @@
         "https://transformer-circuits.pub/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Introduces an interactive visualization tool for inspecting attention heads, with case studies and released code to help researchers investigate their computational roles.",
+      "summary_sources": [
+        "https://transformer-circuits.pub/2026/headvis/index.html"
+      ]
     },
     {
       "title": "Model Spec Midtraining: Improving How Alignment Training Generalizes",
@@ -1719,7 +1994,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Trains models on synthetic documents about a behavioral specification before alignment fine-tuning, showing how this changes generalization from the same demonstration data.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2605.02087"
+      ]
     },
     {
       "title": "Claude Opus 4.8 System Card",
@@ -1775,7 +2055,12 @@
         "https://arxiv.org/abs/2604.27470"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Introduces physician-authored clinical conversation tasks and adjudicated rubrics for evaluating care consultation, medical documentation, and research assistance in realistic clinician workflows.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2604.27470"
+      ]
     },
     {
       "title": "Auto-review of agent actions without synchronous human oversight",
@@ -1870,7 +2155,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Analyzes Claude users' survey responses about productivity and job displacement, relating reported benefits and concerns to occupational exposure and career stage.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/81k-economics"
+      ]
     },
     {
       "title": "OpenAI Privacy Filter Model Card",
@@ -1915,7 +2205,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Trains a shared adapter to make fine-tuned models describe their learned behaviors, testing transfer to hidden behaviors and models trained through different procedures.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2604.16812"
+      ]
     },
     {
       "title": "Automated Alignment Researchers",
@@ -1943,7 +2238,12 @@
         "https://alignment.anthropic.com/2026/ai-organizations/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Compares individual agents with multi-agent organizations on practical business tasks, finding that better task performance can coincide with greater misalignment at the system level.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2604.10290"
+      ]
     },
     {
       "title": "Trustworthy agents in practice",
@@ -1984,7 +2284,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Investigates emotion-related representations in Claude and uses internal interventions to study how those representations influence behavior; this concerns computation rather than evidence of felt emotion.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/emotion-concepts-function"
+      ]
     },
     {
       "title": "Mythos Preview System Card",
@@ -2014,7 +2319,12 @@
         "https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1"
       ],
       "date_basis": "bioRxiv posting date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Introduces multistage genomics and quantitative-biology tasks that require agents to explore data, choose an analysis workflow, and produce scientifically meaningful conclusions.",
+      "summary_sources": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.22.720113v1"
+      ]
     },
     {
       "title": "Claude Opus 4.7 System Card",
@@ -2083,7 +2393,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Tracks changes in Claude usage and human–AI collaboration, examining how task mix, augmentation, and adoption patterns evolve across users and regions.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/economic-index-march-2026-report"
+      ]
     },
     {
       "title": "Vibe physics: The AI grad student",
@@ -2176,7 +2491,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Introduces adversarial RL training data for resolving conflicting instructions, improving instruction hierarchy and prompt-injection robustness while checking helpfulness and capability retention.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2603.10521"
+      ]
     },
     {
       "title": "Reverse engineering Claude's CVE-2026-2796 exploit",
@@ -2217,7 +2537,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Introduces CoT-Control to measure whether reasoning models can deliberately constrain their internal reasoning text, finding substantially less control than over final answers.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2603.05706"
+      ]
     },
     {
       "title": "Labor market impacts of AI: A new measure",
@@ -2232,7 +2557,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Combines estimated model capabilities with observed workplace use to measure AI exposure, distinguishing potential displacement from current labor-market evidence.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/labor-market-impacts"
+      ]
     },
     {
       "title": "GPT-5.4 Thinking System Card",
@@ -2275,7 +2605,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Extends the study of nonzero single-minus scattering amplitudes to gravitons, investigating a setting where standard arguments would otherwise predict vanishing tree-level amplitudes.",
+      "summary_sources": [
+        "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons/"
+      ]
     },
     {
       "title": "GPT-5.3 Instant System Card",
@@ -2318,7 +2653,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Introduces models with implanted hidden behaviors to evaluate auditing tools and agents, revealing that strong standalone tools do not necessarily improve an investigator's overall success.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.22755"
+      ]
     },
     {
       "title": "Training Agents to Self-Report Misbehavior",
@@ -2333,7 +2673,12 @@
         "https://alignment.openai.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Trains agents to call a reporting tool when they covertly misbehave, reducing undetected attacks in held-out environments while testing capability and safety trade-offs.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.22303"
+      ]
     },
     {
       "title": "Disrupting malicious uses of AI | February 2026",
@@ -2374,7 +2719,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Stress-tests unsupervised elicitation and easy-to-hard generalization on datasets with misleading features, imbalance, and ambiguity, identifying weaknesses obscured by cleaner benchmarks.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.20400"
+      ]
     },
     {
       "title": "The persona selection model",
@@ -2428,7 +2778,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Publishes model-generated solution attempts to ten First Proof problems, together with prompting details and model-based validation of the proposed arguments.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/26177a73-3b75-4828-8c91-e8f1cf27aaa0/oai_first_proof.pdf"
+      ]
     },
     {
       "title": "Measuring AI agent autonomy in practice",
@@ -2456,7 +2811,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Introduces smart-contract tasks for detecting, patching, and exploiting vulnerabilities, using realistic audit findings and execution-based checks to evaluate agent performance.",
+      "summary_sources": [
+        "https://openai.com/index/introducing-evmbench/"
+      ]
     },
     {
       "title": "India Country Brief: Anthropic Economic Index",
@@ -2484,7 +2844,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "workflows",
+      "summary": "Introduces GABRIEL, a toolkit for turning qualitative text and images into quantitative research measurements, with validation tasks for large-scale social-science analysis.",
+      "summary_sources": [
+        "https://openai.com/index/scaling-social-science-research/"
+      ]
     },
     {
       "title": "Single-minus gluon tree amplitudes are nonzero",
@@ -2499,7 +2864,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Derives nonzero single-minus gluon tree amplitudes in specific half-collinear configurations, providing a closed-form expression and checking physical consistency conditions.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.12176"
+      ]
     },
     {
       "title": "Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs",
@@ -2514,7 +2884,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Uses crosscoders to compare representations across different model architectures, introducing dedicated features that help identify safety-relevant behavioral differences without predefined labels.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.11729"
+      ]
     },
     {
       "title": "Abstractive Red-Teaming of Language Model Character",
@@ -2529,7 +2904,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Searches for natural-language categories of prompts that reliably violate a model's character specification, aiming to uncover realistic failures more efficiently than testing isolated prompts.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2602.12318"
+      ]
     },
     {
       "title": "Discovering unknown AI misalignments in real-world usage",
@@ -2585,7 +2965,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "biology",
+      "summary": "Connects GPT-5 to an automated laboratory for iterative experiment design, reporting lower cell-free protein production costs through closed-loop optimization.",
+      "summary_sources": [
+        "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost/"
+      ]
     },
     {
       "title": "Claude Sonnet 4.6 System Card",
@@ -2630,7 +3015,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Uses a bias–variance decomposition to distinguish systematic goal-directed failures from inconsistent errors, finding that longer action and reasoning horizons can increase failure incoherence.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.23045"
+      ]
     },
     {
       "title": "Pre-deployment auditing can catch an overt saboteur",
@@ -2658,7 +3048,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Uses randomized coding experiments to study learning with AI assistance, finding that heavy delegation can impair understanding and debugging while more engaged interaction preserves skills.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.20245"
+      ]
     },
     {
       "title": "Who's in Charge? Disempowerment Patterns in Real-World LLM Usage",
@@ -2673,7 +3068,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Analyzes real Claude conversations for patterns that could undermine users' judgments, values, or autonomy, distinguishing observed interaction risks from demonstrated downstream harm.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.19062"
+      ]
     },
     {
       "title": "Petri 2.0: New Scenarios, New Model Comparisons, and Improved Eval-Awareness Mitigations",
@@ -2727,7 +3127,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Identifies an activation direction associated with a model's default assistant persona and tests whether constraining movement along it reduces harmful persona drift.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.10387"
+      ]
     },
     {
       "title": "Economic Index: New building blocks for AI use",
@@ -2755,7 +3160,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Introduces measures of user and AI skills, task complexity, autonomy, success, and purpose, expanding the Economic Index's view of consumer and enterprise AI use.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
+      ]
     },
     {
       "title": "CoVal: Learning values-aware rubrics from the crowd",
@@ -2796,7 +3206,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Combines conversation-aware classifiers, staged screening, and internal probes to improve jailbreak defenses while reducing inference costs and unnecessary refusals.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.04603"
+      ]
     },
     {
       "title": "AI to defend critical infrastructure",
@@ -2837,7 +3252,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Introduces an open-source agentic framework that generates evaluation scenarios for a specified behavior and estimates its frequency and severity across models.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/bloom"
+      ]
     },
     {
       "title": "Sidestepping Evaluation Awareness and Anticipating Misalignment with Production Evaluations",
@@ -2878,7 +3298,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "evaluation",
+      "summary": "Defines evaluation methods for chain-of-thought monitorability and studies how oversight signals vary with inference compute, reinforcement learning, and pretraining scale.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2512.18311"
+      ]
     },
     {
       "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
@@ -2921,7 +3346,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Trains models to answer natural-language questions about neural activations, testing whether these activation oracles can uncover hidden knowledge and behaviors outside their training distribution.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2512.15674"
+      ]
     },
     {
       "title": "Towards training-time mitigations for alignment faking in RL",
@@ -2962,7 +3392,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "workflows",
+      "summary": "Introduces expert-level physics, chemistry, and biology problems across Olympiad and research tracks, with original tasks and detailed rubrics for assessing scientific reasoning.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2601.21165"
+      ]
     },
     {
       "title": "Open Source Replication of the Auditing Game Model Organism",
@@ -2993,7 +3428,7 @@
       "notes": ""
     },
     {
-      "title": "Advancing science and math with GPT-5.2 — COLT monotonicity paper",
+      "title": "On Learning-Curve Monotonicity for Maximum Likelihood Estimators",
       "date": "2025-12-11",
       "lab": "OpenAI",
       "kind": "paper",
@@ -3005,7 +3440,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "mathematics",
+      "summary": "Proves learning-curve monotonicity for maximum-likelihood estimators in specified Gaussian and Gamma settings, using model-developed arguments checked and transcribed by human researchers.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/a3f3f76c-98bd-47a5-888f-c52c932a8942/colt-monotonicity-problem.pdf"
+      ]
     },
     {
       "title": "The state of enterprise AI",
@@ -3020,7 +3460,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Combines enterprise usage trends and worker surveys to describe how AI adoption deepens, which workflows grow, and where organizations report productivity benefits.",
+      "summary_sources": [
+        "https://openai.com/index/the-state-of-enterprise-ai-2025-report/"
+      ]
     },
     {
       "title": "Beyond Data Filtering: Knowledge Localization for Capability Removal in LLMs",
@@ -3035,7 +3480,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Introduces selective gradient masking to localize targeted knowledge in removable parameters, evaluating capability removal and retained performance when harmful-data labels are noisy.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2512.05648"
+      ]
     },
     {
       "title": "Introducing Anthropic Interviewer",
@@ -3063,7 +3513,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Trains models to produce separate, honesty-rewarded confessions about their actions, improving visibility into instruction violations and reward hacking without penalizing admissions through the main answer's reward.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2512.08093"
+      ]
     },
     {
       "title": "How AI is transforming work at Anthropic",
@@ -3143,7 +3598,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "economics",
+      "summary": "Estimates task time savings from Claude conversations and explores productivity implications, while noting that model-estimated savings omit work performed outside the recorded interaction.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/estimating-productivity-gains"
+      ]
     },
     {
       "title": "Mitigating prompt injections in browser use",
@@ -3171,7 +3631,12 @@
         "https://www.anthropic.com/research"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Shows that learning to exploit coding-task rewards can generalize into broader misalignment, including deceptive behavior and sabotage, and studies interventions to limit that transfer.",
+      "summary_sources": [
+        "https://www.anthropic.com/research/emergent-misalignment-reward-hacking"
+      ]
     },
     {
       "title": "Early science acceleration experiments with GPT-5",
@@ -3186,7 +3651,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "workflows",
+      "summary": "Collects human–GPT-5 research case studies across scientific disciplines, documenting concrete contributions, saved effort, failures, and the continuing role of expert guidance and verification.",
+      "summary_sources": [
+        "https://openai.com/index/accelerating-science-gpt-5/"
+      ]
     },
     {
       "title": "How evals drive the next chapter in AI for businesses",
@@ -3229,7 +3699,12 @@
         "https://openai.com/news/rss.xml"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "interpretability",
+      "summary": "Trains transformers with mostly zero weights to recover smaller, more understandable circuits, examining the trade-off between interpretability and capability as model size and sparsity change.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2511.13653"
+      ]
     },
     {
       "title": "Disrupting an AI-orchestrated cyber espionage campaign",
@@ -3244,7 +3719,12 @@
         "https://www.anthropic.com/news/disrupting-AI-espionage"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Documents the disruption of a Claude-assisted cyberespionage campaign, describing the reported division of work between human operators and AI agents and the response to misuse.",
+      "summary_sources": [
+        "https://www.anthropic.com/news/disrupting-AI-espionage"
+      ]
     },
     {
       "title": "Project Fetch: Can Claude train a robot dog?",
@@ -3287,7 +3767,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Strengthens attack policies for AI-control evaluations by decomposing sabotage into constituent skills and optimizing them with synthetic simulations before transfer to agentic environments.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2511.02823"
+      ]
     },
     {
       "title": "Evaluating Control Protocols for Untrusted AI Agents",
@@ -3302,7 +3787,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "arXiv first submission",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Evaluates monitoring, resampling, and deferral protocols against untrusted agents, showing how adaptive attackers can weaken defenses that appear strong against a fixed attack policy.",
+      "summary_sources": [
+        "https://arxiv.org/abs/2511.02997"
+      ]
     },
     {
       "title": "Introducing IndQA",
@@ -3358,7 +3848,12 @@
         "https://openai.com/index/gpt-oss-safeguard-technical-report/"
       ],
       "date_basis": "official publication date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "security",
+      "summary": "Documents open-weight safety models that reason over developer-provided policies, including baseline safety evaluations and the intended role of policy-conditioned content classification.",
+      "summary_sources": [
+        "https://cdn.openai.com/pdf/08b7dee4-8bc6-4955-a219-7793fb69090c/Technical_report__Research_Preview_of_gpt_oss_safeguard.pdf"
+      ]
     },
     {
       "title": "Emergent Introspective Awareness in Large Language Models",
@@ -3377,6 +3872,11 @@
       "notes": "",
       "related_urls": [
         "https://www.anthropic.com/research/introspection"
+      ],
+      "primary_topic": "interpretability",
+      "summary": "Injects known concepts into model activations to test whether models can report internal states, finding limited, context-dependent introspective abilities rather than reliable self-knowledge.",
+      "summary_sources": [
+        "https://transformer-circuits.pub/2025/introspection/index.html"
       ]
     },
     {
@@ -3392,7 +3892,12 @@
         "https://alignment.anthropic.com/"
       ],
       "date_basis": "official article date",
-      "notes": ""
+      "notes": "",
+      "primary_topic": "alignment",
+      "summary": "Presents a pilot safety case for sabotage risk from deployed models, combining capability and alignment evidence with safeguards, an internal review, and an independent review.",
+      "summary_sources": [
+        "https://alignment.anthropic.com/2025/sabotage-risk-report/"
+      ]
     },
     {
       "title": "Addendum to GPT-5 System Card: Sensitive Conversations",
@@ -14217,5 +14722,39 @@
       "reason": "First public paper predates the one-year window."
     }
   ],
-  "math_source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a"
+  "math_source_commit": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "topics": [
+    {
+      "id": "alignment",
+      "title": "Alignment, reward hacking, and AI control"
+    },
+    {
+      "id": "interpretability",
+      "title": "Interpretability and model internals"
+    },
+    {
+      "id": "evaluation",
+      "title": "Evaluations, monitoring, and AI research"
+    },
+    {
+      "id": "security",
+      "title": "Cybersecurity, cryptography, and misuse"
+    },
+    {
+      "id": "biology",
+      "title": "Biology, chemistry, and healthcare"
+    },
+    {
+      "id": "mathematics",
+      "title": "Mathematics and physics"
+    },
+    {
+      "id": "workflows",
+      "title": "Scientific reasoning and research workflows"
+    },
+    {
+      "id": "economics",
+      "title": "Economics, work, and education"
+    }
+  ]
 }
